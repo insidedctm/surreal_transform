@@ -1,0 +1,11 @@
+This repo contains code to read in a frame and related info from SURREAL and then calculate the rotation/translation.
+
+python display_surreal_frame <path_to_surreal_mp4> --frame_number n
+
+e.g. python display_surreal_frame /Users/robineast/work/ucl_project/data/cmu/train/run0/01_01/01_01_c0001.mp4 --frame_number 1
+
+requires:
+  numpy 
+  scipy
+  imageio
+
